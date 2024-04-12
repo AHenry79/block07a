@@ -1,0 +1,96 @@
+@import "./variables";
+
+body {
+    background-image: url(assets/library.jpg);
+    min-height: 100vh;
+    margin: 0px;
+    padding-top: 30px;
+    width: 100vw;
+}
+
+#navbar {
+    background-color: $primaryColor;
+    width: $bgWidth;
+    margin: auto;
+    border-radius: $brdrRad;
+}
+
+nav > h1 {
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
+
+.opener {
+    text-align: center;
+    color: white;
+    background-color: $primaryColor;
+    width: $bgWidth;
+    margin: auto;
+    border-radius: $brdrRad;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: $boxHeightFlex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 2;
+    flex-basis: $boxHeightFlex;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 18px;
+    width: min(700px, 100%);
+    margin: auto;
+    border-radius: $brdrRad;
+}
+
+.witcher > img {
+    position: absolute;
+    height: $imgHeight;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 2;
+    flex-basis: $boxHeightFlex;
+    padding-top: 10px;
+}
+
+.witcher > a {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 2;
+    flex-basis: $boxHeightFlex;
+    margin: 16px;
+}
+
+.divider {
+    border-top: solid;
+    margin-top: 10px;
+}
+
+.links {
+    background-color: $linkColor;
+    height: 50px;
+    float: right;
+    display: flex;
+    flex-grow: 2;
+    flex-basis: $boxHeightFlex;
+    box-sizing: border-box;
+    width: min(150px, 100%);
+    margin: auto;
+    border-radius: $brdrRad;
+}
